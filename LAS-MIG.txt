@@ -1,0 +1,47 @@
+WATTMÄN EL – FÄRDIGA HEMSIDESFILER
+
+Öppna index.html för att se startsidan. Behåll alla filer och assets-mappen tillsammans.
+
+PUBLICERA PÅ GITHUB PAGES
+Packa upp zip-filen. Ladda upp hela innehållet (inte bara index.html) i ditt repository.
+Aktivera GitHub Pages för aktuell gren och rotmappen. Alla interna länkar, bilder,
+typsnitt och skript använder relativa sökvägar och fungerar även i en projektmapp.
+
+PUBLICERA PÅ WEBBHOTELL
+Säkerhetskopiera först nuvarande public_html. Ladda därefter upp hela innehållet
+i hemsidans webbrot. .htaccess innehåller ompekning från de befintliga kända
+sid-adresserna till de nya sidorna på Apache. Slå samman med eventuella befintliga
+serverinställningar i stället för att skriva över dem blint. Aktivera HTTPS på webbhotellet.
+
+KONTAKT
+Telefon: 076-295 85 85
+Mejl: kontakt@wattmanel.se
+Kontaktsidans mejlhjälp öppnar användarens eget mejlprogram med ett färdigt utkast.
+Den skickar inte förfrågan från en server. Ingen backend, betalning eller bokningskalender ingår.
+
+OMDÖMEN
+5,0/5 och 39 omdömen avlästa i företagets Google-widget (Elfsight) den
+20 november 2026. De korta citaten är hämtade via Kundernas.se, vars äldre sammanställning visade 38 omdömen. Dessa siffror är en daterad ögonblicksbild, inte en livekoppling.
+Företagets befintliga Elfsight-widget laddas först efter besökarens klick.
+Widgetens tillgänglighet och eventuella abonnemang/domänbegränsningar styrs av Elfsight.
+Kontrollera widgeten även på slutlig domän. Källänk finns kvar som alternativ.
+Uppdatera datum, betyg och antal när de kontrolleras på nytt.
+
+SEO
+Alla sidor har unik titel och beskrivning, en huvudrubrik, kanonisk webbadress,
+social delningsinformation och strukturerade data. sitemap.xml och robots.txt ingår.
+Adresserna är inställda för https://www.wattmanel.se/.
+Vid annan slutlig huvuddomän: uppdatera canonical, sociala adresser, JSON-LD,
+sitemap.xml och robots.txt. Efter publicering kan sitemap skickas till Google Search Console.
+Sökrankning och indexering kan inte garanteras. En GitHub-förhandsvisning pekar
+avsiktligt kanoniskt mot företagets slutliga domän.
+
+BILDER, FONT OCH KÄLLOR
+Bilderna kommer från företagets befintliga webbplats och har optimerats till WebP.
+Originalets stockbilder används som tjänsteillustrationer, inte som påstådda utförda projekt.
+Ingen tillgänglig originalvideo hittades. Länk till företagets Instagram finns i sidan.
+Bildrättigheter/licenser bör behållas eller bekräftas av företaget inför skarp publicering.
+Outfit och Phosphor-licenser finns i licenses/. Källor finns i KALLOR.txt.
+
+20 HTML-sidor ingår (inklusive 404 och integritet), tillsammans med alla lokala resurser.
+Filerna fungerar utan byggverktyg eller installation av paket.
